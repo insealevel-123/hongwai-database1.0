@@ -1,0 +1,13 @@
+# 1. 忽略所有文件
+*
+
+# 2. 显式保留我们要的文件
+!hongwaiapp.py
+!requirements.txt
+
+# 3. 显式保留文件夹，以及文件夹里的内容 (重点是加了后面这两行)
+!photo/
+!photo/**
+!video/
+!video/**
+!.gitignore
